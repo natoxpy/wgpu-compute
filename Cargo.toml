@@ -1,0 +1,10 @@
+[package]
+name = "gpu-compute"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+wgpu = { version = "23.0.1", features = ["spirv"] }
+tokio = { version = "*", features = ["full"] }
+bytemuck = "1.21.0"
+futures-intrusive = "0.5.0"
